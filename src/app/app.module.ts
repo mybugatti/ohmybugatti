@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HrComponent } from './hr/hr.component';
 import { TestComponent } from './test/test.component';
 import { FrPipe } from './fr.pipe';
+import { CardDirective } from './card.directive';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FrPipe } from './fr.pipe';
     AppComponent,
     HrComponent,
     TestComponent,
-    FrPipe
+    FrPipe,
+    CardDirective
   ],
   imports: [
     BrowserModule
